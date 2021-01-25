@@ -105,11 +105,12 @@ body{
 .primary-title{
 	font-family: 'Yeseva One', cursive;
 	font-size: 27px;
-	color: #dea82e;
+	color: #cc9900;
 	font-weight: 300;
 }
 .primary-divider{
 	margin-top: 13px;
+	text-align: center;
 }
 .primary-description{
 	margin-top: 30px;
@@ -120,9 +121,6 @@ body{
 .cook{
 	margin-top: 50px;
 	text-align: center;
-}
-.dish{
-	
 }
 .ingredients{
 	display: flex;
@@ -248,3 +246,97 @@ hr{
     background-position: center;
     padding: 75px 200px;
 }
+.booking-div{
+	  display: flex;
+	  justify-content: space-between;
+	  width: 50%;
+}
+.booking-img{
+	background-image: url('images/ingredients_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    
+}
+.form{
+	display: flex;
+}
+.form-application{
+    padding: 0px 48px; 
+    width: 50%;
+}
+.form-title{
+	text-align: center;
+}
+.form-application >p{
+	margin-top: 13px;
+	text-align: center;
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+
+}
+.form-label{
+	margin-right: 20px;
+}
+.group{
+	margin-top: 20px;
+}
+.group >label{
+	display: block;
+	margin-bottom:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #cc9900;
+	
+}
+.control{
+  width: 100%;
+  border: 0.5px solid #cc9900;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.booking-btn{
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px; 
+	background-color: #cc9900; 
+}
+.footer{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 75px 200px;
+	color: white;
+    
+}
+.footer-div{
+	width: 33.33%;
+    padding: 0px 40px;
+}
+.footer h2{
+	font-family: 'Yeseva One', cursive;
+	font-size: 21px;
+	margin-bottom: 15px;
+	font-weight: 100;
+	text-align: center;
+}
+.footer img{
+	display: block;
+	width: 60%;
+	margin: 15px auto 0 auto;
+}
+.footer p{
+	font-family: 'Yeseva One', cursive;
+	font-size: 12px;
+	font-weight: 50;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 1.5;
+}
+
